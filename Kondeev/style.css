@@ -1,0 +1,109 @@
+body{
+  align-items: center;
+  margin: 0 auto;
+}
+.container{
+  max-width:1250px;
+  margin: 0 auto;
+  
+  align-items: center;
+}
+
+.hero{
+  background-image: url(./img/bg.png);
+  margin: 0 auto;
+}
+.hero .container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  max-width: 1280px;
+  height: 600px;
+}
+.podrobnee-o-nas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background: rgba(63, 60, 60, 1);
+}
+.podrobnee-o-nas a{
+  text-decoration: none;
+  color: rgba(192, 239, 115, 1);
+  padding: 8px 20px;
+}
+h1{
+  font-size: 35px;
+}
+.podrobnee-o-nas p{
+  font-size: 24px;
+}
+
+.sliderr h2{
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#slider-container {
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  left: 425px;
+}
+
+.slider-items {
+  display: none;
+  text-align: center;
+}
+
+#prev-btn, #next-btn {
+  margin-top: 10px;
+    position: relative;
+  left: 425px;
+}
+
+.arrow{
+  display: flex;
+  gap: 40px;
+}
+
+.carousel-item img{
+  position: relative;
+  left:450px
+}
+.carousel-control-prev{
+  margin-left: 320px;
+  margin-top: 70px;
+
+}
+.carousel-control-next{
+  margin-right: 370px;
+  margin-top: 70px;
+}
+h2{
+  text-align: center;
+}
+.carousel-caption{
+  color: black;
+}
+.carousel h2{
+  font-size: 36px;
+  padding: 50px;
+}
+.carousel{
+margin-bottom: 40px;
+}
+.novosti h2{
+  padding-top: 30px;
+}
+.avtorization{
+  padding: 100px;
+}
+
+
+
+

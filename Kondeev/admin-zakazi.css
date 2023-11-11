@@ -1,0 +1,14 @@
+.btn-card{
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.btn-card a{
+  color: white;
+}
+.btn-card a:first-child{
+  background: #1f9ab9;
+}
+.btn-card a:last-child{
+  background: #1fb91f;
+}

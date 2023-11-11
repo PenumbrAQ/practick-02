@@ -1,0 +1,32 @@
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1250px;
+}
+.card-section{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.zakazi h1{
+  text-align: center;
+}
+.f-part-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.s-part-card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.s-part-card a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  background: yellow;
+}

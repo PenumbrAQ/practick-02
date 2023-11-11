@@ -1,0 +1,21 @@
+.crud-button{
+  display: flex;
+  justify-content: space-between;
+}
+.crud-button a{
+  text-decoration: none;
+  color:  white;
+  padding: 10px 20px;
+}
+.crud-button a:first-child{
+  background: #10a4be;
+}
+.crud-button a:last-child{
+  background: #a31c1c;
+}
+.add-tovar{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background: #87bd31;
+}
